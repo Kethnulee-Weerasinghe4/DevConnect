@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DevConnect – Developer Profile Directory
 
-## Getting Started
+DevConnect is a full-stack web application designed to serve as a directory for developers. Users can create a profile, view profiles of other members, and efficiently search the directory by name or technical skills.
 
-First, run the development server:
+## Features
+
+DevConnect implements the following core functionalities:
+
+* **Profile Creation (POST)**: A modern, responsive form allows users to submit their name, bio, skills (comma-separated), GitHub, and LinkedIn links.
+* **Dynamic Profile Viewing (GET)**: All profiles are fetched from the database and displayed on the homepage using clean profile cards.
+* **Live Search/Filtering**: Profiles are filtered instantly by name or any listed skill using dynamic API calls, providing a fast and efficient search experience.
+
+***
+
+## Tech Stack
+
+| Layer | Technology | Details |
+| :--- | :--- | :--- |
+| **Frontend** | **Next.js, React, TypeScript** | Client-side logic for search, forms, and UI rendering. |
+| **Backend** | **Express.js (Node.js)** | RESTful API routes for data interaction. |
+| **Database** | **MongoDB (Mongoose)** | Flexible NoSQL database for storing developer profile data. |
+| **Styling** | **Tailwind CSS** | Utility-first CSS framework for rapid and responsive styling. |
+
+***
+
+##  Setup and Installation
+
+To run this project locally, need to set up both the backend API server and the frontend Next.js application.
+
+### Prerequisites
+
+* Node.js (LTS version) and npm installed.
+* A running **MongoDB** instance (local or a cloud service like MongoDB Atlas).
+
+### Step 1: Clone the Repository
+
+Clone the project from GitHub and navigate into the main directory:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone [https://github.com/YOUR_USERNAME/devconnect.git](https://github.com/YOUR_USERNAME/devconnect.git)
+cd devconnect
