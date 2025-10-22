@@ -11,6 +11,7 @@ DevConnect implements the following core functionalities:
 * **Live Search/Filtering**: Profiles are filtered instantly by name or any listed skill using dynamic API calls, providing a fast and efficient search experience.
 
 ***
+![Website Preview](./preview.png)
 
 ## Tech Stack
 
