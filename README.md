@@ -21,7 +21,7 @@ making it easy for others to view, discover, and search for talent based on name
 | **Backend** (`server/`) | **Express.js (Node.js)** | Minimalist framework for building the REST API. |
 | **Database** | **MongoDB** | NoSQL database for flexible data storage. |
 | **ORM/ODM** | **Mongoose** | Used to model application data and interact with MongoDB. |
-| **Styling** | **Tailwind CSS** | (Specify which one you chose) for a clean, maintainable, and responsive UI. |
+| **Styling** | **Tailwind CSS** | For a clean, maintainable, and responsive UI. |
 
 -----
 
