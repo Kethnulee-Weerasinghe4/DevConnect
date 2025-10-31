@@ -49,24 +49,23 @@ Navigate to the server folder:
     cd server
     ```
 Install dependencies:
+
     ```bash
     npm install 
     ```
-    The API will run on `http://localhost:5000`.
+    The API will run on http://localhost:5000.
 
 ### Client Setup
 
 Navigate to the client folder:
+
     ```bash
     cd ../client
     ```
 Install dependencies:
+
     ```bash
-    npm install # or yarn install
+    npm install 
     ```
     
-    The application will open at `http://localhost:3000.
-
-
-```
-```
+    The application will open at http://localhost:3000.
