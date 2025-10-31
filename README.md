@@ -5,14 +5,14 @@ making it easy for others to view, discover, and search for talent based on name
 
 ## Features
 
-1.  **Add Developer Profile:** Users can submit a profile using a simple form that captures their:
+1.  **Add Developer Profile:**
       * **Name**
       * **Bio**
-      * **Skills** (stored as an array of strings)
-      * **GitHub** and **LinkedIn** public links
-2.  **View All Profiles:** Fetches and displays a directory of all registered developers. Each profile is presented in a card format, showing essential information (name, bio, skills, and links).
-3.  **Search & Filtering:** Allows users to quickly find profiles by **name** or **skill**, enabling targeted talent discovery.
-
+      * **Skills**
+      * **Social Link** 
+2.  **View All Profiles:** 
+3.  **Search & Filtering:**
+   
 ## Tech Stack
 
 | Layer | Technology | Key Libraries/Notes |
@@ -33,7 +33,7 @@ Following software must have installed:
 
   * **Node.js**
   * **npm** 
-  * **MongoDB** running locally or a cloud connection string (e.g., MongoDB Atlas).
+  * **MongoDB**
 
 ### Clone the Repository
 
@@ -53,7 +53,6 @@ Install dependencies:
     ```bash
     npm install 
     ```
-    The API will run on http://localhost:5000.
 
 ### Client Setup
 
@@ -68,4 +67,3 @@ Install dependencies:
     npm install 
     ```
     
-    The application will open at http://localhost:3000.
